@@ -1,6 +1,7 @@
 # Library Management System
 
-![Book Lamp](https://github.com/JeffriLieca/Library/raw/main/Library/Assets.xcassets/AppIcon.appiconset/Book_Lamp.jpg)
+<img src="https://github.com/JeffriLieca/Library/raw/main/Library/Assets.xcassets/AppIcon.appiconset/Book_Lamp.jpg" width="300" />
+
 
 A simple library management system built using SwiftUI and Supabase. This system allows users to view available books, borrow them, manage a cart for borrowing, and update returned book statuses. It supports functionalities like adding books, genres, and editions to the library, as well as tracking borrowing transactions and user profiles.
 
