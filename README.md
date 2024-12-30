@@ -1,7 +1,8 @@
 # Library Management System
 
-<img src="https://github.com/JeffriLieca/Library/raw/main/Library/Assets.xcassets/AppIcon.appiconset/Book_Lamp.jpg" width="300" />
-
+<p align="center">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Library/Assets.xcassets/AppIcon.appiconset/Book_Lamp.jpg" width="300" />
+</p>
 
 A simple library management system built using SwiftUI and Supabase. This system allows users to view available books, borrow them, manage a cart for borrowing, and update returned book statuses. It supports functionalities like adding books, genres, and editions to the library, as well as tracking borrowing transactions and user profiles.
 
@@ -12,13 +13,12 @@ A simple library management system built using SwiftUI and Supabase. This system
 - **Cart System**: Add and remove books to/from the borrow cart.
 - **User Management**: Login and fetch user profiles.
 - **Supabase Integration**: Interacts with Supabase for fetching, adding, and updating records.
-  
+
 ## Technologies Used
 
 - **SwiftUI**: For building the user interface.
 - **Supabase**: Used for managing data like books, editions, and borrow transactions.
 - **Xcode**: The IDE used to develop the app.
-
 
 ## Features in Detail
 
@@ -43,7 +43,38 @@ A simple library management system built using SwiftUI and Supabase. This system
 ### User Authentication
 
 - **Login**: Check if a user is logged in and fetch their profile information (Still simple, only if).
-  
+
+## Class Diagram
+
+<p align="center">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/Class-Diagram%20Library.png" width="300">
+</p>
+
+This class diagram was generated using the [SwiftPlantUML](https://github.com/MarcoEidinger/SwiftPlantUML) tool. A special thanks to **Marco Eidinger** for creating the [SwiftPlantUML](https://github.com/MarcoEidinger/SwiftPlantUML) technology, which made it possible to generate the class diagrams from Swift code.
+
+## Database Structure
+
+<p align="center">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/Supabase%20Table.png" width="300">
+</p>
+
+The database schema is structured to support the library system's features and is fully integrated with Supabase for real-time data fetching and updates.
+
+## Physical Data Model (PDM)
+
+<p align="center">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/PDM.png" width="300">
+</p>
+
+The PDM illustrates the relationships and structure of the database tables, ensuring efficient data storage and retrieval for the system's functionality.
+
+## Unit Testing
+
+<p align="center">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/Unit%20Testing%20using%20Swift%20Testing.png" width="300">
+</p>
+
+I have also performed some unit testing using **Swift Testing**, a framework that Apple describes as having "expressive and intuitive APIs that make testing your Swift code a breeze."
 
 ## License
 
