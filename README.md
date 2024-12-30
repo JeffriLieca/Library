@@ -47,7 +47,7 @@ A simple library management system built using SwiftUI and Supabase. This system
 ## Class Diagram
 
 <p align="center">
-  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/Class-Diagram%20Library.png" width="300">
+  <img src="https://github.com/JeffriLieca/Library/raw/main/Document/Class-Diagram%20Library.png" width="800">
 </p>
 
 This class diagram was generated using the [SwiftPlantUML](https://github.com/MarcoEidinger/SwiftPlantUML) tool. A special thanks to **Marco Eidinger** for creating the [SwiftPlantUML](https://github.com/MarcoEidinger/SwiftPlantUML) technology, which made it possible to generate the class diagrams from Swift code.
